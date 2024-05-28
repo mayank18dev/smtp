@@ -1,0 +1,22 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "*": {
+        "*": {
+          "*": {
+            "rendering": {
+              "header_text": "headerText",
+              "optional_cta_button_text": "buttonText",
+              "optional_redirect_url": "linkUrl",
+              "desktop_background_image": "desktopImageUrl",
+              "mobile_background_image": "mobileImageUrl",
+              "alt_text": "altText",
+              "body_copy_text": "bodyCopyText"
+            }
+          }
+        }
+      }
+    }
+  }
+]

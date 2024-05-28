@@ -1,0 +1,32 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "#sponsored": "header",
+      "# ": ["headerUrl", "buttonUrl", "buttonText"],
+      "*": {
+        "*": {
+          "*": {
+            "products": {
+              "*": {
+                "ProductName": "products.[&1].shortDescription",
+                "ProductId": "products.[&1].productNumber",
+                "Image": "products.[&1].imageUrl",
+                "Rating": "products.[&1].reviews.averageRating",
+                "#0": "products.[&1].reviews.count",
+                "Price": "products.[&1].salePrice",
+                "ComparePrice": "products.[&1].qvcPrice",
+                "# ": ["products.[&1].minPrice", "products.[&1].maxPrice"],
+                "OnViewBeacon": "products.[&1].OnViewBeacon",
+                "OnClickBeacon": "products.[&1].OnClickBeacon",
+                "OnBasketChangeBeacon": "products.[&1].OnBasketChangeBeacon",
+                "OnWishlistBeacon": "products.[&1].OnWishlistBeacon",
+                "OnLoadBeacon": "OnLoadBeacon[]"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
